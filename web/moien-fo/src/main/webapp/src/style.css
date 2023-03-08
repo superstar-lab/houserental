@@ -1,0 +1,226 @@
+@font-face { 
+	font-family: 'Overpass-Regular';
+	font-style: normal;
+	src: url('../resources/fonts/Overpass-Regular.ttf');
+	src: local('Overpass-Regular'), local('OverpassRegular'),
+		 url('../resources/fonts/Overpass-Regular.ttf') format('truetype'),
+}
+
+@font-face { 
+	font-family: 'Overpass-Light';
+	font-style: normal;
+	src: url('../resources/fonts/Overpass-Light.ttf');
+	src: local('Overpass-Light'), local('OverpassLight'),
+		 url('../resources/fonts/Overpass-Light.ttf') format('truetype'),
+}
+
+@font-face { 
+	font-family: 'Overpass-Bold';
+	font-style: normal;
+	src: url('../resources/fonts/Overpass-Bold.ttf');
+	src: local('Overpass-Bold'), local('OverpassBold'),
+		 url('../resources/fonts/Overpass-Bold.ttf') format('truetype'),
+}
+
+@font-face { 
+	font-family: 'Overpass-SemiBold';
+	font-style: normal;
+	src: url('../resources/fonts/Overpass-SemiBold.ttf');
+	src: local('Overpass-SemiBold'), local('OverpassSemiBold'),
+		 url('../resources/fonts/Overpass-SemiBold.ttf') format('truetype'),
+}
+
+#root {
+    min-height: 100vh;
+}
+
+* {
+	font-family: 'Overpass-Regular';
+}
+
+.form-group {
+    margin-bottom: .2rem;
+}
+
+body, .btn {
+	font-size: 0.9rem;
+}
+
+label {
+	font-size: 0.9rem !important;
+}
+
+.btn.btn-primary {
+	background:#40DCB6;
+	border-color:#40DCB6;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn.btn-primary:hover {
+    background: #40DCB6 !important;
+    color: white !important;
+}
+
+.btn.btn-primary.btn-primary-outline {
+	background: #ffffff;
+    color: #40DCB6;
+}
+
+button.btn.btn-primary.btn-primary-outline:hover {
+    background:#40DCB6;
+    color: #ffffff;
+}
+
+.btn.btn-secondary {
+	background:#010D3C;
+	border-color:#010D3C;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn.btn-secondary:hover {
+    background: #010D3C !important;
+    color: white !important;
+}
+
+.btn.btn-secondary.btn-secondary-outline {
+	background: #ffffff;
+    color: #010D3C;
+}
+
+button.btn.btn-secondary.btn-secondary-outline:hover {
+    background:#010D3C;
+    color: #ffffff;
+}
+
+.main-app-menu-bar.dropleft .dropdown-toggle::before {
+	display: none;
+}
+
+.main-app-menu-bar > button.dropdown-toggle.btn.btn-primary:hover {
+	background: transparent !important;	
+}
+
+.navbar-light .navbar-toggler {
+	font-size: 1rem;
+	margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+.navbar-nav .nav-link {
+	padding-bottom: 0;
+}
+
+.navbar-collapse.collapse.show {
+	background: #dbdbdb;
+	padding-bottom: 5px;
+	z-index: 9999;
+}
+
+.navbar-collapse.collapse.show > .mr-auto.navbar-nav {
+	padding-left: 10px;
+}
+
+.navbar-collapse.collapse.show > .right-navbar.navbar-nav button{
+	margin-left: 10px;
+}
+
+.rs-input-group-sm > input.rs-input {
+	font-size: 0.9rem;
+	height: 32px;
+}
+
+.rs-input-group-sm.rs-input-group:not(.rs-input-group-inside) > input.rs-input {
+	height: 32px;
+	padding-top: 7px;
+}
+
+.rs-input-group-sm.rs-input-group:not(.rs-input-group-inside) > .rs-input-group-addon {
+	height: 32px;
+	font-size: 0.9rem;
+}
+
+.custom-counter-component .rs-input-number-btn-group-vertical {
+	display: none;
+}
+
+.custom-counter-component input {
+	text-align: center;
+}
+
+.rs-slider-handle::before {
+    background: #ffffff;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #b1b1b1;
+    top: -4px;
+}
+
+.rs-slider-bar {
+    background-color: #b1b1b1;
+}
+
+.rs-slider-bar:hover {
+    background-color: #c5c1c1;
+}
+
+.rs-slider-progress-bar {
+	background-color: #010D3C;
+}
+
+.fade:not(.show) {
+    opacity: 1;
+}
+
+.rs-modal-backdrop.in {
+    opacity: 0.3 !important;
+}
+
+
+/* Default title/header/caption */
+
+.item-default-header {
+	padding: 5px 0 5px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.item-default-sub-header {
+	font-size: 18px;
+    font-weight: bold;
+}
+
+.property-file-field input[type="file"] {
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    display: none;
+}
+
+
+.rs-modal.rs-confirm-dialog.center {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+}
+
+.rs-modal.rs-confirm-dialog.center > .rs-modal-dialog {
+	left: -50%;
+    position: relative;
+}
+
+.rs-sidebar > div > div.rs-sidenav {
+	max-height: calc(100vh - 160px);
+	overflow-y: auto;
+}
+
+.rs-panel-heading, .rs-panel-body {
+	padding: 8px;
+}
+
+.rs-panel-body hr {
+	margin-top: 5px;
+    margin-bottom: 5px;
+}

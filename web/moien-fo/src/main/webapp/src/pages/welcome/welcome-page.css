@@ -1,0 +1,93 @@
+.welcome-page .btn.btn-primary {
+    color: #010D3C;
+	background: #FFFFFF;
+    border-color: #FFFFFF;
+    font-size: 16px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.welcome-page .btn.btn-primary:hover {
+    background: #010D3C !important;
+    color: white !important;
+}
+
+.welcome-page .rent-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.welcome-page .rent-type svg {
+    font-size: 30px;
+    margin: 0px 5px 5px 5px;
+}
+
+.welcome-page .rent-type .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 20px 0px 0px;
+}
+
+.welcome-page .rent-type text:hover {
+    font-weight: bolder;
+}
+
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}

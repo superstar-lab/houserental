@@ -1,0 +1,123 @@
+{
+  "name": "houserental",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest --verbose --coverage",
+    "test:update": "jest --verbose --coverage --updateSnapshot",
+    "test:watch": "jest --verbose --watch",
+    "coverage": "jest --verbose --coverage && open ./coverage/lcov-report/index.html",
+    "clear-test": "jest --clearCache",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.3",
+    "@react-native-community/cameraroll": "^4.0.0",
+    "@react-native-community/datetimepicker": "^2.1.1",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/progress-bar-android": "^1.0.4",
+    "@react-native-community/progress-view": "^1.3.1",
+    "@react-native-firebase/analytics": "^11.4.1",
+    "@react-native-firebase/app": "^11.4.1",
+    "axios": "^0.21.1",
+    "i18n-js": "^3.5.1",
+    "i18next": "^19.0.0",
+    "i18next-react-native-language-detector": "^1.0.2",
+    "lodash.memoize": "^4.1.2",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.31",
+    "native-base": "^2.13.8",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-i18next": "^11.0.1",
+    "react-native": "0.61.3",
+    "react-native-animated-header": "^1.0.7",
+    "react-native-calendar-strip": "2.2.5",
+    "react-native-calendars": "^1.259.0",
+    "react-native-counters": "^1.0.0",
+    "react-native-custom-picker": "^0.4.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-device-info": "^5.4.1",
+    "react-native-document-picker": "5.0.4",
+    "react-native-drag-sort": "^2.4.4",
+    "react-native-file-viewer": "2.1.4",
+    "react-native-fonts-awesomepro": "2.0.0",
+    "react-native-fs": "^2.16.4",
+    "react-native-gesture-handler": "1.8.0",
+    "react-native-gifted-chat": "0.16.1",
+    "react-native-google-places-autocomplete": "^1.4.0",
+    "react-native-i18n": "^2.0.15",
+    "react-native-iap": "^7.5.3",
+    "react-native-image-gallery": "2.1.5",
+    "react-native-image-picker": "^1.1.0",
+    "react-native-input-code": "^1.0.0",
+    "react-native-intent-launcher": "^0.2.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-localize": "^1.3.1",
+    "react-native-map-clustering": "^3.0.6",
+    "react-native-maps": "^0.26.1",
+    "react-native-masked-text": "1.13.0",
+    "react-native-onesignal": "3.7.3",
+    "react-native-paper": "3.10.1",
+    "react-native-payments": "^0.8.3",
+    "react-native-pdf": "^6.3.0",
+    "react-native-permissions": "3.3.1",
+    "react-native-read-more-text": "1.1.2",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-render-html": "4.2.0",
+    "react-native-screens": "^1.0.0-alpha.23",
+    "react-native-signature-capture": "^0.4.12",
+    "react-native-simple-dialogs": "1.3.0",
+    "react-native-size-matters": "0.3.1",
+    "react-native-splash-screen": "3.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webview": "9.4.0",
+    "react-native-x-carousel": "1.0.1",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^1.10.3",
+    "react-navigation-tabs": "^2.5.6",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.12.0",
+    "rn-range-slider": "^1.3.0",
+    "toggle-switch-react-native": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/runtime": "7.6.3",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.6.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "cacheDirectory": "./cache",
+    "coveragePathIgnorePatterns": [
+      "./app/utils/vendor"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 80
+      }
+    },
+    "verbose": true,
+    "transformIgnorePatterns": [
+      "/node_modules/(?!react-native|react-native-community|react-clone-referenced-element|react-navigation)"
+    ]
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/"
+    ]
+  }
+}
